@@ -6,6 +6,10 @@ var plugins = [{
       name: 'gatsby-plugin-html-attributes',
       plugin: require('/Users/david/Downloads/Compressed/Kontribute-Web-main/node_modules/gatsby-plugin-html-attributes/gatsby-ssr'),
       options: {"plugins":[],"lang":"zxx"},
+    },{
+      name: 'gatsby-plugin-manifest',
+      plugin: require('/Users/david/Downloads/Compressed/Kontribute-Web-main/node_modules/gatsby-plugin-manifest/gatsby-ssr'),
+      options: {"plugins":[],"name":"MyKontribute","short_name":"Kontribute","start_url":"/","display":"standalone","icon":"src/assets/images/kontribute.svg","legacy":true,"theme_color_in_head":true,"cache_busting_mode":"query","crossOrigin":"anonymous","include_favicon":true,"cacheDigest":"3f9c1c4463fdd9ec4bbe191ef012f2f0"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:
 // var plugins = [

@@ -84,7 +84,7 @@ const ComingSoon = () => {
               </div>
 
               <form className="newsletter-form">
-                <div className="form-group">
+                {/* <div className="form-group">
                   <input
                     type="email"
                     className="input-newsletter"
@@ -105,7 +105,7 @@ const ComingSoon = () => {
                 <p>
                   If you would like to be notified when your app is live, Please
                   subscribe to our mailing list.
-                </p>
+                </p> */}
               </form>
             </div>
           </div>

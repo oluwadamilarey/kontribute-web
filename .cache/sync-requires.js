@@ -4,6 +4,7 @@ const preferDefault = m => (m && m.default) || m
 
 
 exports.components = {
+  "component---cache-dev-404-page-js": preferDefault(require("/Users/david/Downloads/Compressed/Kontribute-Web-main/.cache/dev-404-page.js")),
   "component---src-pages-about-us-js": preferDefault(require("/Users/david/Downloads/Compressed/Kontribute-Web-main/src/pages/about-us.js")),
   "component---src-pages-big-data-analysis-startup-js": preferDefault(require("/Users/david/Downloads/Compressed/Kontribute-Web-main/src/pages/big-data-analysis-startup.js")),
   "component---src-pages-blog-details-js": preferDefault(require("/Users/david/Downloads/Compressed/Kontribute-Web-main/src/pages/blog-details.js")),

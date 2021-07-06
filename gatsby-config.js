@@ -25,5 +25,15 @@ module.exports = {
         offset: -120,
       },
     },
+    {
+      resolve: `gatsby-plugin-manifest`,
+      options: {
+        name: "MyKontribute",
+        short_name: "Kontribute",
+        start_url: "/",
+        display: "standalone",
+        icon: "src/assets/images/kontribute.svg",
+      },
+    },
   ],
 }

@@ -1,10 +1,10 @@
 var plugins = [{
       name: 'gatsby-plugin-react-helmet',
-      plugin: require('/Users/david/kontribute/Kontribute-Web/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
+      plugin: require('/Users/david/Downloads/Compressed/Kontribute-Web-main/node_modules/gatsby-plugin-react-helmet/gatsby-ssr'),
       options: {"plugins":[]},
     },{
       name: 'gatsby-plugin-html-attributes',
-      plugin: require('/Users/david/kontribute/Kontribute-Web/node_modules/gatsby-plugin-html-attributes/gatsby-ssr'),
+      plugin: require('/Users/david/Downloads/Compressed/Kontribute-Web-main/node_modules/gatsby-plugin-html-attributes/gatsby-ssr'),
       options: {"plugins":[],"lang":"zxx"},
     }]
 // During bootstrap, we write requires at top of this file which looks like:

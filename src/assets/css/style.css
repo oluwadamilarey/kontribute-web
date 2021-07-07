@@ -2744,6 +2744,7 @@ Boxes Area CSS
   overflow: hidden;
   background-color: #ffffff;
   border-radius: 5px;
+  height: 380px;
   padding: 40px 30px 35px;
   -webkit-transition: 0.5s;
   transition: 0.5s;

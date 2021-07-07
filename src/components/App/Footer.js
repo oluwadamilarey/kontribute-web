@@ -19,7 +19,7 @@ const Footer = () => {
               <p>The Gateway to Africa’s Social Circles</p>
 
               <ul className="social-link">
-                <li>
+                {/* <li>
                   <Link
                     to="#"
                     className="d-block"
@@ -48,10 +48,10 @@ const Footer = () => {
                   >
                     <i className="bx bxl-instagram"></i>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
-                    to="#"
+                    to="https://www.linkedin.com/company/kontributeltd"
                     className="d-block"
                     target="_blank"
                     rel="noreferrer"

@@ -1,7 +1,7 @@
 import React from "react"
 import { Link } from "gatsby"
 import starIcon from "../../assets/images/star-icon.png"
-import team1 from "../../assets/images/team/team1.jpg"
+import princess from "../../assets/images/team/princess.jpg"
 import team2 from "../../assets/images/team/team2.jpg"
 import david from "../../assets/images/team/david.jpg"
 import ikire from "../../assets/images/team/ikire.jpg"
@@ -22,7 +22,7 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team2} alt="team" />
+                <img src={team2} alt="team" style={{ height: 260 }} />
 
                 <ul className="social">
                   {/* <li>
@@ -65,10 +65,10 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={david} alt="team" />
+                <img src={david} alt="team" style={{ height: 260 }} />
 
                 <ul className="social">
-                  <li>
+                  {/* <li>
                     <Link to="#" className="d-block">
                       <i className="bx bxl-facebook"></i>
                     </Link>
@@ -87,6 +87,19 @@ const TeamMember = () => {
                     <Link to="#" className="d-block">
                       <i className="bx bxl-linkedin"></i>
                     </Link>
+                  </li> */}
+                  <li>
+                    <a
+                      href="https://www.linkedin.com/in/david-abimbola-98b53a188/"
+                      target="_blank"
+                    >
+                      <Link
+                        //to="http://linkedin.com/in/adaobiokerekeocha"
+                        className="d-block"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -100,10 +113,10 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={ikire} alt="team" />
+                <img src={ikire} alt="team" style={{ height: 260 }} />
 
                 <ul className="social">
-                  <li>
+                  {/* <li>
                     <Link to="#" className="d-block">
                       <i className="bx bxl-facebook"></i>
                     </Link>
@@ -117,11 +130,19 @@ const TeamMember = () => {
                     <Link to="#" className="d-block">
                       <i className="bx bxl-instagram"></i>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
-                    <Link to="#" className="d-block">
-                      <i className="bx bxl-linkedin"></i>
-                    </Link>
+                    <a
+                      href="http://linkedin.com/in/adaobiokerekeocha"
+                      target="_blank"
+                    >
+                      <Link
+                        //to="http://linkedin.com/in/adaobiokerekeocha"
+                        className="d-block"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </Link>
+                    </a>
                   </li>
                 </ul>
               </div>
@@ -135,10 +156,10 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team2} alt="team" />
+                <img src={princess} alt="team" style={{ height: 260 }} />
 
                 <ul className="social">
-                  <li>
+                  {/* <li>
                     <Link to="#" className="d-block">
                       <i className="bx bxl-facebook"></i>
                     </Link>
@@ -152,11 +173,19 @@ const TeamMember = () => {
                     <Link to="#" className="d-block">
                       <i className="bx bxl-instagram"></i>
                     </Link>
-                  </li>
+                  </li> */}
                   <li>
-                    <Link to="#" className="d-block">
-                      <i className="bx bxl-linkedin"></i>
-                    </Link>
+                    <a
+                      href="https://www.linkedin.com/in/princessedoosagie/"
+                      target="_blank"
+                    >
+                      <Link
+                        //to="http://linkedin.com/in/adaobiokerekeocha"
+                        className="d-block"
+                      >
+                        <i className="bx bxl-linkedin"></i>
+                      </Link>
+                    </a>
                   </li>
                 </ul>
               </div>

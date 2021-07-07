@@ -16,7 +16,8 @@ const FeaturedService = () => {
                 <img src={icon1} alt="banner" />
               </div>
               <h3>
-                <Link to="/service-details">Group Funding</Link>
+                {/* <Link to="/service-details">Group Funding</Link> */}
+                Group Funding
               </h3>
               <p>
                 Whether it’s raising money for your friend’s wedding or sending
@@ -31,12 +32,13 @@ const FeaturedService = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-6">
-            <div className="single-boxes-item" style={{ height: 350 }}>
+            <div className="single-boxes-item">
               <div className="icon">
                 <img src={icon2} alt="banner" />
               </div>
               <h3>
-                <Link to="/service-details">Group Savings & Lending</Link>
+                {/* <Link to="/service-details"></Link> */}
+                Group Savings & Lending
               </h3>
               <p>
                 We want to help you meet your goals quicker by leveraging the
@@ -50,12 +52,13 @@ const FeaturedService = () => {
           </div>
 
           <div className="col-lg-4 col-md-6 col-sm-6 offset-lg-0 offset-sm-3 offset-md-3">
-            <div className="single-boxes-item" style={{ height: 381 }}>
+            <div className="single-boxes-item">
               <div className="icon">
                 <img src={icon3} alt="banner" />
               </div>
               <h3>
-                <Link to="/service-details">Group Investment</Link>
+                {/* <Link to="/service-details">Group Investment</Link> */}
+                Group Investment
               </h3>
               <p>
                 Use the strength of your social circles to tap into more

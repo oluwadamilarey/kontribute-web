@@ -17,6 +17,10 @@ const Navbar = () => {
 
   React.useEffect(() => {
     let elementId = document.getElementById("navbar")
+    collapsed
+      ? (elementId.style.backgroundColor = "transparent")
+      : (elementId.style.backgroundColor = "white")
+
     document.addEventListener("scroll", () => {
       if (window.scrollY > 170) {
         elementId.classList.add("is-sticky")

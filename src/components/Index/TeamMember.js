@@ -3,8 +3,8 @@ import { Link } from "gatsby"
 import starIcon from "../../assets/images/star-icon.png"
 import team1 from "../../assets/images/team/team1.jpg"
 import team2 from "../../assets/images/team/team2.jpg"
-import team3 from "../../assets/images/team/team4.jpg"
-import team4 from "../../assets/images/team/team4.jpg"
+import david from "../../assets/images/team/david.jpg"
+import ikire from "../../assets/images/team/ikire.jpg"
 
 const TeamMember = () => {
   return (
@@ -65,7 +65,7 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team1} alt="team" />
+                <img src={david} alt="team" />
 
                 <ul className="social">
                   <li>
@@ -100,7 +100,7 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team3} alt="team" />
+                <img src={ikire} alt="team" />
 
                 <ul className="social">
                   <li>

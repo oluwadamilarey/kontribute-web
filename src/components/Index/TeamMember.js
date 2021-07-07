@@ -22,7 +22,11 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team2} alt="team" style={{ height: 260 }} />
+                <img
+                  src={team2}
+                  alt="team"
+                  style={{ height: 260, width: 280 }}
+                />
 
                 <ul className="social">
                   {/* <li>
@@ -65,7 +69,11 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={david} alt="team" style={{ height: 260 }} />
+                <img
+                  src={david}
+                  alt="team"
+                  style={{ height: 260, width: 280 }}
+                />
 
                 <ul className="social">
                   {/* <li>
@@ -113,7 +121,11 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={ikire} alt="team" style={{ height: 260 }} />
+                <img
+                  src={ikire}
+                  alt="team"
+                  style={{ height: 260, width: 280 }}
+                />
 
                 <ul className="social">
                   {/* <li>
@@ -156,7 +168,11 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={princess} alt="team" style={{ height: 260 }} />
+                <img
+                  src={princess}
+                  alt="team"
+                  style={{ height: 260, width: 280 }}
+                />
 
                 <ul className="social">
                   {/* <li>

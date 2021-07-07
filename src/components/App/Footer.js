@@ -140,8 +140,8 @@ const Footer = () => {
           <div className="row align-items-center">
             <div className="col-lg-6 col-md-6">
               <p>
-                Copyright @{currentYear} <strong>MyKontribute</strong> All
-                rights reserved{" "}
+                Copyright @{currentYear} <strong>Kontribute</strong> All rights
+                reserved{" "}
               </p>
             </div>
 

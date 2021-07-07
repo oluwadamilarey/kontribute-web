@@ -52,7 +52,7 @@ const Navbar = () => {
                 }}
               >
                 <img src={logo} alt="logo" />
-                <p style={{ fontSize: 23, marginLeft: 10 }}>MyKontribute</p>
+                <p style={{ fontSize: 23, marginLeft: 10 }}>Kontribute</p>
               </Link>
 
               <button

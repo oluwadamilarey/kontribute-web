@@ -22,7 +22,7 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team1} alt="team" />
+                <img src={team2} alt="team" />
 
                 <ul className="social">
                   {/* <li>
@@ -65,7 +65,7 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team2} alt="team" />
+                <img src={team1} alt="team" />
 
                 <ul className="social">
                   <li>
@@ -135,7 +135,7 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img src={team4} alt="team" />
+                <img src={team2} alt="team" />
 
                 <ul className="social">
                   <li>

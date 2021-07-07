@@ -72,8 +72,8 @@ const Navbar = () => {
 
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav">
-                  <div onClick={toggleNavbar}>
-                    <li className="nav-item">
+                  <li className="nav-item">
+                    <div onClick={toggleNavbar}>
                       <AnchorLink
                         to="/#about"
                         //activeClassName="active"
@@ -82,8 +82,9 @@ const Navbar = () => {
                       >
                         About Us
                       </AnchorLink>
-                    </li>
-                  </div>
+                    </div>
+                  </li>
+
                   <li className="nav-item">
                     <div onClick={toggleNavbar}>
                       <AnchorLink
@@ -121,8 +122,9 @@ const Navbar = () => {
                       </AnchorLink>
                     </div>
                   </li>
-                  <div onClick={toggleNavbar}>
-                    <li className="nav-item">
+
+                  <li className="nav-item">
+                    <div onClick={toggleNavbar}>
                       <AnchorLink
                         to="/#team"
                         //activeClassName="active"
@@ -131,8 +133,8 @@ const Navbar = () => {
                       >
                         The Team
                       </AnchorLink>
-                    </li>
-                  </div>
+                    </div>
+                  </li>
                 </ul>
 
                 {/* <div className="others-option d-flex align-items-center">

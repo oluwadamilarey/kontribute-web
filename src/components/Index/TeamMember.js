@@ -133,7 +133,7 @@ const TeamMember = () => {
                   </li> */}
                   <li>
                     <a
-                      href="http://linkedin.com/in/adaobiokerekeocha"
+                      href="https://www.linkedin.com/in/ikeri-ebenezer-384059b1/"
                       target="_blank"
                     >
                       <Link

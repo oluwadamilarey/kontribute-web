@@ -28,10 +28,10 @@ const Footer = () => {
                   >
                     <i className="bx bxl-facebook"></i>
                   </Link>
-                </li>
+                </li> */}
                 <li>
                   <Link
-                    to="#"
+                    to="https://twitter.com/My_Kontribute"
                     className="d-block"
                     target="_blank"
                     rel="noreferrer"
@@ -39,7 +39,7 @@ const Footer = () => {
                     <i className="bx bxl-twitter"></i>
                   </Link>
                 </li>
-                <li>
+                {/* <li>
                   <Link
                     to="#"
                     className="d-block"

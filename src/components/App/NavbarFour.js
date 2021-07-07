@@ -77,7 +77,7 @@ const Navbar = () => {
               <div className={classOne} id="navbarSupportedContent">
                 <ul className="navbar-nav">
                   <li className="nav-item">
-                    <div onClick={toggleNavbar}>
+                    <div onClick={() => setCollapsed(true)}>
                       <AnchorLink
                         to="/#about"
                         //activeClassName="active"
@@ -90,7 +90,7 @@ const Navbar = () => {
                   </li>
 
                   <li className="nav-item">
-                    <div onClick={toggleNavbar}>
+                    <div onClick={() => setCollapsed(true)}>
                       <AnchorLink
                         to="/#mission"
                         //activeClassName="active"
@@ -103,7 +103,7 @@ const Navbar = () => {
                   </li>
 
                   <li className="nav-item">
-                    <div onClick={toggleNavbar}>
+                    <div onClick={() => setCollapsed(true)}>
                       <AnchorLink
                         to="/#ourHistory"
                         //activeClassName="active"
@@ -115,7 +115,7 @@ const Navbar = () => {
                     </div>
                   </li>
                   <li className="nav-item">
-                    <div onClick={toggleNavbar}>
+                    <div onClick={() => setCollapsed(true)}>
                       <AnchorLink
                         to="/#howItWorks"
                         //activeClassName="active"
@@ -128,7 +128,31 @@ const Navbar = () => {
                   </li>
 
                   <li className="nav-item">
-                    <div onClick={toggleNavbar}>
+                    <Link
+                      to="#"
+                      activeClassName="active"
+                      onClick={e => e.preventDefault()}
+                      className="nav-link"
+                    >
+                      Products <i className="bx bx-chevron-down"></i>
+                    </Link>
+
+                    <ul className="dropdown-menu">
+                      <li className="nav-item">
+                        <Link
+                          //to="/case-studies"
+                          activeClassName="active"
+                          onClick={() => setCollapsed(true)}
+                          className="nav-link"
+                        >
+                          My Loop
+                        </Link>
+                      </li>
+                    </ul>
+                  </li>
+
+                  <li className="nav-item">
+                    <div onClick={() => setCollapsed(true)}>
                       <AnchorLink
                         to="/#team"
                         //activeClassName="active"

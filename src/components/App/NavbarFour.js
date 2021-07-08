@@ -115,19 +115,6 @@ const Navbar = () => {
                     </div>
                   </li>
                   <li className="nav-item">
-                    <div onClick={() => setCollapsed(true)}>
-                      <AnchorLink
-                        to="/#howItWorks"
-                        //activeClassName="active"
-                        //onClick={e => e.preventDefault()}
-                        className="nav-link"
-                      >
-                        How It Works
-                      </AnchorLink>
-                    </div>
-                  </li>
-
-                  <li className="nav-item">
                     <Link
                       to="#"
                       activeClassName="active"
@@ -139,14 +126,14 @@ const Navbar = () => {
 
                     <ul className="dropdown-menu">
                       <li className="nav-item">
-                        <Link
-                          //to="/case-studies"
-                          activeClassName="active"
-                          onClick={() => setCollapsed(true)}
+                        <AnchorLink
+                          to="/#howItWorks"
+                          //activeClassName="active"
+                          //onClick={e => e.preventDefault()}
                           className="nav-link"
                         >
                           My Loop
-                        </Link>
+                        </AnchorLink>
                       </li>
                     </ul>
                   </li>

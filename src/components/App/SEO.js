@@ -5,19 +5,19 @@ const SEO = () => {
   return (
     <div>
       <Helmet>
-        <title>MyKontribute - The Gateway To Africa's Social Circles</title>
+        <title>Kontribute - The Gateway To Africa's Social Circles</title>
         <meta
           name="description"
-          content="MyKontribute - The Gateway To Africa's Social Circles"
+          content="Kontribute - The Gateway To Africa's Social Circles"
         />
         <meta
           name="og:title"
           property="og:title"
-          content="MyKontribute - The Gateway To Africa's Social Circles"
+          content="Kontribute - The Gateway To Africa's Social Circles"
         ></meta>
         <meta
           name="twitter:card"
-          content="MyKontribute - The Gateway To Africa's Social Circles"
+          content="Kontribute - The Gateway To Africa's Social Circles"
         ></meta>
         <link rel="canonical" href="https://rewy-react.envytheme.com/"></link>
         <meta

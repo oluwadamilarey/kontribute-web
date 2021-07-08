@@ -2,9 +2,9 @@ import React from "react"
 import { Link } from "gatsby"
 import starIcon from "../../assets/images/star-icon.png"
 import princess from "../../assets/images/team/princess.jpg"
-import team2 from "../../assets/images/team/team2.jpg"
 import david from "../../assets/images/team/david.jpg"
 import ikire from "../../assets/images/team/ikire.jpg"
+import ada from "../../assets/images/team/ada.png"
 
 const TeamMember = () => {
   return (
@@ -22,11 +22,7 @@ const TeamMember = () => {
           <div className="col-lg-3 col-sm-6">
             <div className="single-scientist-item-box">
               <div className="image">
-                <img
-                  src={team2}
-                  alt="team"
-                  style={{ height: 260, width: 280 }}
-                />
+                <img src={ada} alt="team" style={{ height: 276, width: 313 }} />
 
                 <ul className="social">
                   {/* <li>
@@ -72,7 +68,7 @@ const TeamMember = () => {
                 <img
                   src={david}
                   alt="team"
-                  style={{ height: 260, width: 280 }}
+                  style={{ height: 276, width: 313 }}
                 />
 
                 <ul className="social">
@@ -124,7 +120,7 @@ const TeamMember = () => {
                 <img
                   src={ikire}
                   alt="team"
-                  style={{ height: 260, width: 280 }}
+                  style={{ height: 276, width: 313 }}
                 />
 
                 <ul className="social">
@@ -171,7 +167,7 @@ const TeamMember = () => {
                 <img
                   src={princess}
                   alt="team"
-                  style={{ height: 260, width: 280 }}
+                  style={{ height: 276, width: 313 }}
                 />
 
                 <ul className="social">

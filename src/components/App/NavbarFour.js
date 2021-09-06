@@ -125,7 +125,10 @@ const Navbar = () => {
                     </Link>
 
                     <ul className="dropdown-menu">
-                      <li className="nav-item">
+                      <li
+                        className="nav-item"
+                        onClick={() => setCollapsed(true)}
+                      >
                         <AnchorLink
                           to="/#howItWorks"
                           //activeClassName="active"

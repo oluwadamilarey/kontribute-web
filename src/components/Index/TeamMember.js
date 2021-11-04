@@ -4,7 +4,7 @@ import starIcon from "../../assets/images/star-icon.png"
 import princess from "../../assets/images/team/princess.jpg"
 import david from "../../assets/images/team/david.jpg"
 import ikire from "../../assets/images/team/ikire.jpg"
-import ada from "../../assets/images/team/ada.png"
+import ada from "../../assets/images/team/ada_new.jpg"
 
 const TeamMember = () => {
   return (

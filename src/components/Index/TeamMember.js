@@ -56,7 +56,7 @@ const TeamMember = () => {
                 </ul>
               </div>
               <div className="content">
-                <h3>Adaobi Okerekeocha</h3>
+                <h3>Adaobi Igwe-Okerekeocha</h3>
                 <span>COO/CPO</span>
               </div>
             </div>
